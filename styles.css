@@ -1,15 +1,16 @@
 body {
     background-image: url("background.webp");
     background-repeat: no-repeat;
-    background-size: 1280px;
+    background-size: auto;
 }
 .box {
     width: 350px;
     height: 350px;
-    margin-top: 150px;
-    margin-right: 420px;
-    margin-left: 420px;
+    margin: 0 auto;
     padding: 25px;
     border: 5px solid rgb(0, 195, 255);
-    background-color: aliceblue;
-  }
+    background-color: rgb(255, 255, 255);
+}
+.logo{
+    display: flex;
+}
