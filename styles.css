@@ -2,28 +2,50 @@ body {
     background-image: url("background.webp");
     background-repeat: no-repeat;
     background-size: auto;
+    margin:0;
 }
-.hotter{
-    width:auto;
-    margin-top: 1000;
-    margin-left: 0;
+footer{
+    margin-top: 200px;
     background-color: white;
-    height:100px;
+    height:30px;
+    box-shadow: 0 -25px 50px 30px white;
+}
+.box2{
+    width: 360px;
+    height: 380px;
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0px;
+    padding-right: 10px;
+    border: 5px solid rgb(0, 189, 255);
+    border-radius:30px;
+    background: linear-gradient(to right, rgb(0, 157, 255), rgb(0, 221, 255)); 
 }
 .box {
     width: 350px;
-    height: 350px;
-    margin: 0 auto;
-    padding: 25px;
-    border: 5px solid rgb(0, 195, 255);
+    height: 280px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
     background-color: rgb(255, 255, 255);
+    border-radius:25px;
 }
-.logo{
+.logos{
     display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex: 75px;
+    justify-content: space-around;
 }
 p{
+    text-align: center;
     font-family: 'Noto Sans JP', sans-serif;
 }
 h1, h2{
+    text-align: center;
     font-family: 'Noto Sans JP', sans-serif;
+}
+h1{
+    color: white;
 }
